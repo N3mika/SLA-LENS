@@ -11,7 +11,7 @@ What happens after a learner makes an error, and how does the instructor's respo
 
 ## SLA-LENS framework
 
-![Overview of the SLA-LENS framework](images/slalens_pipeline.png)
+![Overview of the SLA-LENS framework](images/cslamain.png)
 
 *Figure 1. Overview of SLA-LENS. Classroom transcripts are structured into sentence-level rows and annotated with context-sensitive, role-constrained CSLA labels using an LLM. The annotation engine is evaluated against expert-reviewed gold and GPT-generated silver references using exact, hierarchical, and diagnostic-sensitive measures. A separate deterministic Python component transforms annotated CSV files into descriptive participation, feedback, error, uptake, and temporal analyses. Outputs include an inspectable annotated transcript and an evidence-linked HTML/PDF report. Candidate event associations are proximity-based, not verified causal relations.*
 
